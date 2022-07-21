@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Example contextMenu+executeScript extension",
+  "short_name": "example-cntxt-exec",
+  "description": "Basic example mv3 extension with contextMenu and executeScript",
+  "version": "0.0.1",
+  "minimum_chrome_version": "88",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "background": {"service_worker": "background.js"}
+}
